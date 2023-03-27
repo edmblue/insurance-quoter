@@ -1,6 +1,6 @@
 import useCotizador from '../hooks/useCotizador';
 import { TIPOSEGURO, TIPOPLAN } from '../constants';
-import Spinner from './spinner';
+import Spinner from './Spinner';
 
 const Resultado = () => {
   const { seguro, priceTotal, spinner, setSpinner } = useCotizador();
